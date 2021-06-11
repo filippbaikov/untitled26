@@ -14,6 +14,8 @@ public class Controller {
 
     public void Send(ActionEvent actionEvent) {
         MyTextArea.appendText(MyTextField.getText()+"\n");
+        //подскажите как прописать, чтобы текст был ограничен по длине строки
+        // и переносился на следующую строчку
         MyTextField.clear();
 
 

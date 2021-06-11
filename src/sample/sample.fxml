@@ -4,9 +4,10 @@
 <?import javafx.scene.layout.*?>
 
 <VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
-    <TextArea fx:id="MyTextArea" editable="false" />
+    <TextArea fx:id="MyTextArea" editable="false"/>
     <HBox>
-        <TextField fx:id="MyTextField" prefHeight="26.0" prefWidth="392.0" />
+        <TextField   HBox.hgrow="ALWAYS" maxHeight="-Infinity"  fx:id="MyTextField" prefHeight="26.0" prefWidth="392.0" />
+
         <Button onAction="#Send" prefHeight="26.0" prefWidth="87.0">ОТПРАВИТЬ</Button>
     </HBox>
 
